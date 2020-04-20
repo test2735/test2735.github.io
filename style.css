@@ -1,0 +1,89 @@
+body {
+	background-color: #DDDDDD;
+	background-image: url();
+	background-position: center;
+}
+
+.body_table {
+	margin: auto;
+	background-color: #FFFFFF;
+	border-spacing: 0;
+}
+
+/*HEADER ON*/
+
+.header {
+	background-color: #FFFFFF;
+}
+
+.logo_td {
+	text-align: left;
+}
+
+.logo {
+	margin-left: 40;
+}
+
+.header_image_td {
+	height: 180;
+	background-image: url("header обрезанный в пайнте.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.header_link {
+	color: black;
+	font: 100px/0px fantasy;
+	text-decoration: none;
+}
+
+.qr_td {
+	text-align: right;
+}
+
+.qr {
+	margin-right: 40;
+}
+
+
+/*HEADER OFF*/
+
+.tr_space {
+	height: 40;
+}
+
+.nav {
+	
+}
+
+.nav_button {
+	height: 70;
+	width: 290;
+	background-color: #EEEEEE;
+	padding: 0; /*1-й костыль 1 часть, неясно как padding ДЛЯ ВСЕХ ячеек ОДНОЙ таблицы задать*/
+	text-align: center;
+}
+
+.nav_button:hover {
+	transform: scale(1.1);
+}
+
+.nav_button_link {
+	color: black;
+	font: 50px/0px fantasy;
+	text-decoration: none;
+
+}
+
+.nav_button_space {
+	width: 38; /*1-й костыль 2 часть, вместо width: 40; padding: 0; ради экономии места написано width: 38;*/
+}
+
+.article {
+	
+}
+
+.footer {
+	
+}
