@@ -1,27 +1,31 @@
 body {
-	background-color: #DDDDDD;
+	background-color: #DDD;
 	background-image: url();
 	background-position: center;
+	margin: 0;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	text-indent: 50px;
+	text-align: justify;
 }
 
 .body_table {
 	margin: auto;
-	background-color: #FFFFFF;
+	background-color: #FFF;
 	border-spacing: 0;
 }
 
 /*HEADER ON*/
 
 .header {
-	background-color: #FFFFFF;
+	background-color: #FFF;
 }
 
 .logo_td {
-	text-align: left;
-}
-
-.logo {
-	margin-left: 40;
+	text-align: center;
 }
 
 .header_image_td {
@@ -33,17 +37,15 @@ body {
 }
 
 .header_link {
-	color: black;
-	font: 100px/0px fantasy;
+	color: #000;
+	font-family: 'Russo One', sans-serif;
+	font-size: 80px;
 	text-decoration: none;
+	text-shadow: -1px -1px white, -1px 1px white, 1px -1px white, 1px 1px #FFF;
 }
 
 .qr_td {
-	text-align: right;
-}
-
-.qr {
-	margin-right: 40;
+	text-align: center;
 }
 
 
@@ -53,16 +55,23 @@ body {
 	height: 40;
 }
 
+.td_space {
+	width: 38; /*1-й костыль 2 часть, вместо width: 40; padding: 0; ради экономии места написано width: 38;*/
+}
+
+/*NAV ON*/
+
 .nav {
 	
 }
 
 .nav_button {
 	height: 70;
-	width: 290;
-	background-color: #EEEEEE;
+	width: 270;
+	background-color: #EEE;
 	padding: 0; /*1-й костыль 1 часть, неясно как padding ДЛЯ ВСЕХ ячеек ОДНОЙ таблицы задать*/
 	text-align: center;
+	transition: 0.1s;
 }
 
 .nav_button:hover {
@@ -70,20 +79,27 @@ body {
 }
 
 .nav_button_link {
-	color: black;
-	font: 50px/0px fantasy;
+	color: #000;
+	font-family: 'Russo One', sans-serif;
+	font-size: 40px;
 	text-decoration: none;
 
 }
 
-.nav_button_space {
-	width: 38; /*1-й костыль 2 часть, вместо width: 40; padding: 0; ради экономии места написано width: 38;*/
-}
+/*NAV OFF*/
 
 .article {
-	
+	height: 1200; /*КОСТЫЛЬ чтобы footer был у нижнего края*/
+	vertical-align: top;
+	width: 1200;
+	padding: 0;
 }
 
 .footer {
-	
+	height: 70;
+	background-color: #EEE;
+	font-color: #DDD
+	font-size: 10px;
+	text-indent: 0px;
+	text-align: center;
 }
